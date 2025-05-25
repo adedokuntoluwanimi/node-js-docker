@@ -1,4 +1,6 @@
-docker ps# Using Node.js LTS version as base image FROM node:18
+docker ps
+# Using Node.js LTS version as base image
+FROM node:18
 # Setting the work directory
 WORKDIR /app
 #Copying available packages
